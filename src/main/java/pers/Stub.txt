@@ -1,0 +1,14 @@
+package pers;
+
+public class Stub extends AbsPers{
+
+    public Stub(String name, int x, int y) {
+        super(name, x, y);
+        AbsPers.mapInstPers.clear();
+        AbsPers.id = 0;
+        AbsPers.mapTeamPers.clear();
+    }
+
+    @Override
+    public void step(AbsPers a){};
+}
